@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'AllDataPage.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -104,7 +105,10 @@ class _HomeState extends State<Home>with SingleTickerProviderStateMixin {
             child: TabBarView(
                 controller: tabController,
               children: <Widget>[
-
+                AllDataPage(),
+                AllDataPage(),
+                AllDataPage(),
+                AllDataPage()
               ],
             ),
           )
