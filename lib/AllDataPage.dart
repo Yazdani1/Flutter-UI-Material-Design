@@ -152,7 +152,23 @@ class _AllDataPageState extends State<AllDataPage> {
               ],
             ),
           ),
-        )
+        ),//container end
+
+             new Padding(
+                  padding: EdgeInsets.only(left: 90,top: 300),
+             child: Container(
+             height: 50.0,
+             width: 50.0,
+             decoration: BoxDecoration(
+             borderRadius: BorderRadius.circular(25.0),
+             color: Colors.black
+             ),
+             child: new Center(
+             child: new Icon(Icons.shopping_cart,color: Colors.white,),
+             ),
+             ),
+             ),
+
       ],
     );
 
